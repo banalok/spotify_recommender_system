@@ -1,0 +1,8 @@
+.env
+.streamlit/
+RS_env/
+data/
+knn_model/
+.cache
+__pycache__/
+.ipynb_checkpoints/

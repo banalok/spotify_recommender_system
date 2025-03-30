@@ -1,0 +1,6 @@
+spotipy==2.25.0
+streamlit==1.32.2
+python-dotenv>=1.0.0
+pandas
+hopsworks
+numpy

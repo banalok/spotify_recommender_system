@@ -6,14 +6,14 @@ import pandas as pd
 import os
 import streamlit as st
 import numpy as np
-load_dotenv()
+# load_dotenv()
 
 def init_spotify_client():
     """Initialize the Spotify client using SpotifyOAuth directly."""
     return Spotify(auth_manager=SpotifyOAuth(
-        client_id=os.getenv("SPOTIPY_CLIENT_ID"),
-        client_secret=os.getenv("SPOTIPY_CLIENT_SECRET"),
-        redirect_uri=os.getenv("SPOTIPY_REDIRECT_URI"),
+        client_id=st.secrets["spotify"]["SPOTIPY_CLIENT_ID"], #os.getenv("SPOTIPY_CLIENT_ID"),
+        client_secret=st.secrets["spotify"]["SPOTIPY_CLIENT_SECRET"], #os.getenv("SPOTIPY_CLIENT_SECRET"),
+        redirect_uri=st.secrets["spotify"]["SPOTIPY_REDIRECT_URI"], #os.getenv("SPOTIPY_REDIRECT_URI"),
         scope="user-top-read playlist-modify-public playlist-modify-private"
     ))
 

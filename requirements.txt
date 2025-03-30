@@ -2,5 +2,6 @@ spotipy==2.25.0
 streamlit==1.32.2
 python-dotenv>=1.0.0
 pandas
-hopsworks
+hopsworks==4.1.8
 numpy
+scikit-learn==1.6.1

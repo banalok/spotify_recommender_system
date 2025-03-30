@@ -49,7 +49,7 @@ This application connects to your Spotify account, extracts your top 10 recently
     ```bash
     streamlit run app.py
 
-![Spotify Recommendation App Screenshot](images/capture.png)
-![Spotify Recommendation App Screenshot](images/capture2.png)
-![Spotify Recommendation App Screenshot](images/capture3.png)
-![Spotify Recommendation App Screenshot](images/capture4.png)
+![Spotify Recommendation App Screenshot](images/Capture.PNG)
+![Spotify Recommendation App Screenshot](images/Capture2.PNG)
+![Spotify Recommendation App Screenshot](images/Capture3.PNG)
+![Spotify Recommendation App Screenshot](images/Capture4.PNG)

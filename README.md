@@ -35,13 +35,16 @@ This application connects to your Spotify account, extracts your top 10 recently
    cd spotify-recommendation-system
 
 2. Install dependencies:
+    ```bash
     pip install -r requirements.txt
 
 3. Create a .env file with your Spotify API credentials:
+    ```bash
     SPOTIPY_CLIENT_ID=your_client_id
     SPOTIPY_CLIENT_SECRET=your_client_secret
-    SPOTIPY_REDIRECT_URI=your_redirect_uri
+    SPOTIPY_REDIRECT_URI=http://localhost:8888/callback
     HOPSWORKS_API_KEY=your_hopsworks_api_key
 
 4. Run the application:
+    ```bash
     streamlit run app.py
